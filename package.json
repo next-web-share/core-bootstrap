@@ -1,11 +1,73 @@
 {
-  "name": "@react-ui/core",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@reactjsui/core",
+  "version": "0.0.1",
+  "description": "Reactjs UI Core Bootstrap 4 components",
+  "license": "MIT",
+  "author": {
+    "name": "Bunlong",
+    "github": "https://github.com/bunlong",
+    "twitter": "https://twitter.com/bunlongvan"
+  },
+  "contributors": [
+    {
+      "name": "Bunlong",
+      "url": "https://github.com/bunlong"
+    }
+  ],
+  "homepage": "https://github.com/reactjsui/core",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css/",
+    "es/",
+    "lib/",
+    "umd/",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bunlong",
-  "license": "MIT"
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "core-js": "^2.6.5",
+    "prop-types": "^15.7.2",
+    "react-onclickout": "^2.0.8",
+    "react-perfect-scrollbar": "^1.4.4",
+    "react-router-dom": "~4.3.1",
+  },
+  "peerDependencies": {
+    "react": "^16.8.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "eslint": "^5.15.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "sinon": "^5.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactjsui/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reactjsui/core/issues"
+  },
+  "keywords": [
+    "reactjsui",
+    "reactjs-ui",
+    "reactui",
+    "react-ui",
+    "react",
+    "bootstrap",
+    "react-bootstrap",
+    "framework",
+    "responsive",
+    "layout",
+    "component",
+    "components"
+  ]
 }
