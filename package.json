@@ -1,5 +1,5 @@
 {
-  "name": "@reactjsui/core",
+  "name": "@reactjsui/core-bootstrap",
   "version": "0.0.1",
   "description": "Reactjs UI Core Bootstrap 4 components",
   "author": {
@@ -13,11 +13,11 @@
       "url": "https://github.com/bunlong"
     }
   ],
-  "homepage": "https://github.com/reactjsui/core",
+  "homepage": "https://github.com/reactjsui/core-bootstrap",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjsui/core.git"
+    "url": "https://github.com/reactjsui/core-bootstrap.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
